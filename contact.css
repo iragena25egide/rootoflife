@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+i{
+   
+    margin: 0px 0px 0px 30px;
+    cursor: pointer;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to bottom, #00000075, #cccccc86), url('./image/World\ tree\ Yggdrasil.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+samp{
+    position: absolute;
+    font-family: 'loto',sans-serif;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    margin: 0px 0px 20px 600px;
+}
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+height: 70px;
+color: #fff;
+
+}
+body header .left-header{
+    display: flex;
+   padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+justify-content: space-around;
+}
+body header .right-header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+body header .right-header a{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 4px 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+body header .right-header a:hover{
+    text-decoration: underline;
+}
+menu{
+    width: 100%;
+    height: 600px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+menu .content{
+    width: 49%;
+}
+menu .form{
+    width: 49%;
+}
+menu p{
+    color: #000;
+    padding: 40px;
+    font-size: 20px;
+}
+menu .form form{
+    display: block;
+    color: #000;
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 60px 0px 0px 100px;
+    float: right;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    padding: 20px;
+    margin: 5px;
+}
+menu .form form input{
+    outline: none;
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-family: 'loto',sans-serif;
+    font-size: 18px;
+    border-bottom: 0.3px solid #000;
+}
+menu .form form button{
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    margin: 20px;
+    float: right;
+    cursor: pointer; 
+
+}
+menu .form form button:hover{
+    background: dodgerblue;
+    color: #fff;
+    box-shadow: 3px 3px 3px 3px white;
+}
+.legend{
+    color: #000;
+}
+footer{
+    background: #414040;
+    height: 213px;
+    display: flex;
+    padding: 30px;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+}
+footer .right-footer{
+   display: flex;
+    margin: 10px 0px 0px 200px;
+}
+footer .right-footer .media{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #fff;
+    padding: 8px;
+    margin: 40px 40px 0px 30px;
+
+}
+footer .right-footer i{
+    margin: 30px 0px 0px 2px;
+    font-size: 30px;
+    cursor:pointer;
+}
+#tw{
+    color: dodgerblue;
+}
+#ig{
+    color: rgb(184, 45, 45);
+}
+#wa{
+color: aqua;
+}
+#fb{
+    color: #167ef2;
+}
+.form-field{
+    height: 510px;
+    width: 100px;
+}
