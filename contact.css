@@ -88,6 +88,14 @@ menu .content .img{
     padding: 0px 0px 20px 30px;
 
 }
+menu .more i{
+    color: dodgerblue;
+    font-size: 25px;
+    position: absolute;
+    margin: 250px 0px 0px 700px;
+    cursor: pointer;
+
+}
 menu p{
     color: #2c2727;
     font-family: 'loto',sans-serif;

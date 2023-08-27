@@ -77,12 +77,23 @@ menu .summary button{
 }
 menu .content-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
+    background: #fff;
+}
+.more i{
+    color: dodgerblue;
+    font-size: 25px;
+    position: absolute;
+    margin: 250px 20px 0px 1150px;
+    cursor: pointer;
+    padding: 0px 40px 0px 0px;
+    float: right;
+
 }
 menu .content-container .content{
     background: #fff;
-    width: 30%;
+    width: 40%;
    
     
     border-radius: 20px 20px 0px 0px;
@@ -90,20 +101,19 @@ menu .content-container .content{
 }
 menu .content-container .content img{
     border-radius: 5px 5px 0px 0px;
-    width: 100%;
+    width: 60%;
     height: 200px;
     
 }
-#one{
-   height: 300px; 
-}
-menu .content-container .content .desc small{
+
+menu .content-container .content small{
     font-family: 'loto',sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    color: #2c2727;
+}
+menu .content-container .content small:hover{
+    text-decoration: underline;
 }
 menu .content-container .content .desc p{
     font-family: 'loto',sans-serif;
