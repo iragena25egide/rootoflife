@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+i{
+   
+    margin: 0px 0px 0px 30px;
+    cursor: pointer;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to bottom, #00000075, #cccccc86), url('./image/World\ tree\ Yggdrasil.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+samp{
+    position: absolute;
+    font-family: 'loto',sans-serif;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    margin: 0px 0px 20px 600px;
+}
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+height: 70px;
+color: #fff;
+
+}
+body header .left-header{
+    display: flex;
+   padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+justify-content: space-around;
+}
+body header .right-header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+body header .right-header a{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 4px 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+body header .right-header a:hover{
+    text-decoration: underline;
+}
+
+
+
+ffooter{
+    background: #000000e1;
+    height: 400px;
+    margin: 40px 0px 0px 0px;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+}
+.top-footer{
+    height: 80px;
+    background: #fefefe;
+    padding: 20px 30px 30px 100px;
+    display: flex;
+}
+.top-footer small{
+    font-family: 'loto',sans-serif;
+    font-size: 18px;
+    color: #2c2727;
+
+}
+.top-footer button{
+    margin: 0px 0px 0px 200px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #167ef2;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.top-footer button:hover{
+    background: #012a58;
+}
+.center-footer{
+    height: 270px;
+    background: #2c2727;
+    display: flex;
+    justify-content: space-around;
+}
+.center-footer .left{
+    padding: 20px;
+    display: inline-block;
+}
+.center-footer .left h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ccc;
+}
+.center-footer .left p{
+    font-size: 14px;
+    font-family: 'loto',sans-serif;
+    color: #fff;
+    padding: 5px;
+}
+.center-footer .cent{
+    padding: 30px 30px 0px 0px;
+}
+.center-footer .cent p{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    color: #ccc;
+    cursor: pointer;
+}
+.center-footer .cent p:hover{
+    text-decoration: underline;
+}
+.center-footer .right{
+    padding: 30px 30px 0px 0px;
+}
+.center-footer .right .twiter{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.center-footer .right .twiter a{
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'loto',sans-serif;
+    font-size: 13px;
+    margin: 10px 0px 0px 10px;
+}
+.center-footer .right .twiter i{
+    color: dodgerblue;
+    font-size: 30px;
+}
+.center-footer .right .instagram{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.center-footer .right .instagram a{
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'loto',sans-serif;
+    font-size: 13px;
+    margin: 10px 0px 0px 10px;
+}
+.center-footer .right .instagram i{
+    color: rgba(248, 0, 0, 0.555);
+    font-size: 30px;
+}
+
+
+.center-footer .right .facebook{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.center-footer .right .facebook a{
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'loto',sans-serif;
+    font-size: 13px;
+    margin: 10px 0px 0px 10px;
+}
+.center-footer .right .facebook i{
+    color: rgb(16, 16, 253);
+    font-size: 30px;
+}
+.bottom-footer{
+    height: 50px;
+    background: #111111bb;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-footer p,span{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+    
+}
+
+
+
+menu{
+    width: 100%;
+    background: #fff;
+}
+menu .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 0.1px solid #ccc;
+}
+menu .container .content{
+    width: 24%;
+    height: 300px;
+    border-right: 0.1px solid #ccc;
+    
+}
+menu .container .content h2{
+    color: #000;
+}
