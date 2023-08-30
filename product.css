@@ -204,16 +204,86 @@ menu{
 }
 menu .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    border: 0.1px solid #ccc;
 }
 menu .container .content{
-    width: 24%;
-    height: 300px;
-    border-right: 0.1px solid #ccc;
-    
+    width: 20%;
+    padding: 10px 0px 10px 0px;
+
 }
-menu .container .content h2{
+menu .container .content .product{
+   
+
+}
+menu .container .content button{
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'loto',sans-serif;
+    font-size: 12px;
+    background: rgba(43, 0, 33, 0.603);
+    color: #fff;
+    position: absolute;
+    margin: 20px 0px 0px 210px;
+    cursor: pointer;
+}
+menu .container .content .product img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+menu .container .content .product .desc{
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    justify-content: space-around;
+}
+menu .container .content .product .desc p{
+    color: #2c2727;
+    font-size: 14px;
+    font-family: 'loto',sans-serif;
+    padding: 4px 0px 0px 10px;
+}
+menu .container .content .product .desc small{
+    color: #000;
+    font-size: 22px;
+    font-family: 'loto',sans-serif;
+    padding: 4px 0px 0px 10px;
+}
+menu .container .content .product .desc small:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+menu .production{
+    width: 100%;
+    position: absolute;
+    height: 720px;
+    z-index: 1;
+    background: #cccccc86;
+    display: none;
+}
+menu .production .pro{
+    width: 60%;
+    margin: 50px auto;
+    height: 500px;
+    border-radius: 4px;
+    background: #fff;
+
+}
+menu .production .pro img{
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+
+
+.checked{
+    color: rgba(170, 170, 5, 0.87);
+}
+.un{
     color: #000;
 }
