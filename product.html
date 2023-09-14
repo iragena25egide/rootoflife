@@ -27,16 +27,39 @@
     </header>
     <menu>
         <div class="production">
+            <div class="close"><small>&times;</small></div>
             <div class="pro">
-                <img src="./image/Natural Coffee Scrub,body contouring, SCRUB + Mask.jfif" alt="">
-                <small>Natural Cofee</small>
-                <p>12.0 $</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star un"></span>
+                <div class="left-pro">
+                    <img src="./image/Natural Coffee Scrub,body contouring, SCRUB + Mask.jfif" alt="">
+                    <small>Natural Cofee</small>
+                    <p>12.0 $</p>
+                    <!-- <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star un"></span> -->
+                </div>
+                <div class="desc">
+                    <h2>Ingredients:</h2>
+                    <h5>Coffe</h5>
+                    <h5>Sugar</h5>
+                    <h5>Salt</h5>
+                    <h5>Water</h5>
+                    <h5>Mixed Coffe</h5>
+
+                    <br><br><br>
+                    <h2>Description:</h2>
+                    <p>This product is maded with mixed up of different various plant 
+                        expecially thousand hill coffe and small other plant like
+                        tea,water,sugar and tea.this product is able to help you away of being
+                        dipressed of stress it help you to feel relax after being exhausted 
+                        if you use it properly you will be aware of regular diseases and blood pressure
+                        it help the pregenant woman to have good healthy and it help man in production of sperm.
+                    </p>
+
+                </div>
             </div>
+            
         </div>
         <div class="container">
             <div class="content">
@@ -44,7 +67,7 @@
                 <div class="product">
                     <img src="./image/Natural Coffee Scrub,body contouring, SCRUB + Mask.jfif" alt="">
                     <div class="desc">
-                        <small id="btn">Natural Cofee</small>
+                        <small id="product">Natural Cofee</small>
                         <p>12.0 $</p>
                     </div>
                     
@@ -405,10 +428,23 @@
                 var currentYear = new Date().getFullYear();
               
                 document.getElementById("currentYear").innerHTML = currentYear;
+                var closeProduct=document.querySelector('.close');
+                var production=document.querySelector('.production');
+                var product=document.getElementById('product');
+
+
+                product.addEventListener("click",(e)=>{
+                    e.preventDefault();
+                    production.style.display='inherit';
+                });
+                closeProduct.addEventListener("click",()=>{
+                    production.style.display='none';
+                })
               </script>
               
         </div>
         
       </footer>
 </body>
+
 </html>
