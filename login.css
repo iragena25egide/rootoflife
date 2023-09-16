@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: url(image/World\ tree\ Yggdrasil.jfif);
+    background-size: cover;
+    
+}
+body form{
+    width: 30%;
+    color: #fff;
+    height: 500px;
+    background: rgba(1, 1, 65, 0.884);
+    border-radius: 5px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+body form h5,label{
+    font-family: 'loto',sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    
+
+}
+body form input{
+    outline: none;
+    border: none;
+    width: 80%;
+    margin: 20px;
+    height: 40px;
+    background: #cccccc5e;
+    border-radius: 5px;
+    font-family: 'loto',sans-serif;
+    font-size: 28x;
+    color: #fff;
+    padding: 5px;
+
+}
+body form button{
+    outline: none;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+    color: dodgerblue;
+    padding:10px;
+    margin: 20px 0px 0px 100px;
+}
+body form p{
+    font-family: sans-serif;
+    font-size: 19px;
+    margin: 40px 0px 0px 30px;
+    color: #ccc;
+}
+body form a{
+    text-decoration: underline;
+    font-family: 'loto',sans-serif;
+    font-size: 19px;
+    color: #8d0819;
+}
