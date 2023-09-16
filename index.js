@@ -4,6 +4,10 @@ let btn=document.getElementById('product');
 
 
 
+
+
 btn.onclick=()=>{
     container.style.display='inherit';
 }
+
+
